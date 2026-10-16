@@ -1,0 +1,7 @@
+# pipeline: main
+# step: build-image
+# status: failed
+# commit: 19be6c0
+Step 7/12 : RUN python -m compileall /app
+Killed
+error: process exited with exit code 137 (OOMKilled)

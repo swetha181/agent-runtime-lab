@@ -1,0 +1,8 @@
+# pipeline: pr-checks
+# step: lint
+# status: failed
+# commit: a0f3d21
+ruff check .
+agent/service.py:41:5: F841 Local variable `retries` is assigned to but never used
+agent/service.py:88:1: E402 Module level import not at top of file
+ruff: Found 2 errors.

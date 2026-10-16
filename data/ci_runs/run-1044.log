@@ -1,0 +1,7 @@
+# pipeline: main
+# step: install-dependencies
+# status: failed
+# commit: c41e002
+Collecting fastapi==0.999.0
+ERROR: Could not find a version that satisfies the requirement fastapi==0.999.0
+ERROR: No matching distribution found for fastapi==0.999.0

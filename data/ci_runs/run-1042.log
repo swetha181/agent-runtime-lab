@@ -1,0 +1,12 @@
+# pipeline: pr-checks
+# step: unit-tests
+# status: failed
+# commit: 8f2c1ab
+============================= test session starts ==============================
+collected 412 items
+tests/payments/test_refunds.py ........F.....
+FAILED tests/payments/test_refunds.py::test_partial_refund_rounding
+    def test_partial_refund_rounding():
+>       assert refund_amount(Decimal("10.005"), 0.5) == Decimal("5.00")
+E       AssertionError: assert Decimal('5.01') == Decimal('5.00')
+=========================== 1 failed, 411 passed in 48.21s =====================

@@ -1,0 +1,7 @@
+# pipeline: pr-checks
+# step: integration-tests
+# status: failed
+# commit: 77aa310
+tests/integration/test_order_book.py::test_snapshot_rebuild
+Error: The job exceeded the maximum execution time of 20m
+FAILED tests/integration/test_order_book.py::test_snapshot_rebuild

@@ -1,0 +1,26 @@
+{
+  "BTCUSDT": {
+    "last_price": "67250.10",
+    "change_24h_pct": "1.84",
+    "high_24h": "67900.00",
+    "low_24h": "65810.50"
+  },
+  "ETHUSDT": {
+    "last_price": "3120.45",
+    "change_24h_pct": "-0.72",
+    "high_24h": "3190.00",
+    "low_24h": "3082.10"
+  },
+  "BNBUSDT": {
+    "last_price": "590.30",
+    "change_24h_pct": "0.35",
+    "high_24h": "598.00",
+    "low_24h": "583.40"
+  },
+  "SOLUSDT": {
+    "last_price": "152.80",
+    "change_24h_pct": "3.12",
+    "high_24h": "155.20",
+    "low_24h": "146.90"
+  }
+}

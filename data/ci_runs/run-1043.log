@@ -1,0 +1,9 @@
+# pipeline: pr-checks
+# step: integration-tests
+# status: failed
+# commit: 3b9d77e
+tests/integration/test_price_feed.py::test_ticker_stream
+E   ConnectionResetError: [Errno 54] Connection reset by peer
+FAILED tests/integration/test_price_feed.py::test_ticker_stream
+=========================== 1 failed, 96 passed in 131.70s =====================
+retry: passed (attempt 2)
